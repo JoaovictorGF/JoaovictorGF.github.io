@@ -1,0 +1,382 @@
+<!DOCTYPE html><html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>
+	 	 
+	</title>
+	<link rel="icon" type="Imagem/png" href=""/>
+	
+	<style>
+		body{
+			background-color: white;
+		}
+		div#topo{
+			position: absolute;
+			left: 0%;
+			right: 0%;
+			top: 0%;
+			bottom: 91.25%;
+			background-color: #000AFF;
+		}
+		div#topo label{
+			position: absolute;
+			width: 750px;
+			height: 24px;
+			left: 13%;
+			top: 32%;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 30pt;
+			line-height: 50px;
+			letter-spacing: 0.15px;
+			color: #FFFFFF;
+		}
+		div#topo img{
+			position: absolute;
+			left: 2.5%;
+			right: 89.72%;
+			top: 30%;
+			bottom: 25%;
+		}
+		div#Preco{
+			position: absolute;
+			width: 25%;
+			height: 91.25%;
+			right: 0%;
+			top: 8.75%;
+			background: #3A3A3A;
+		}
+		div#Tabela1{
+			position: absolute;
+			width: 100%;
+			height: 6.5%;
+			right: 0%;
+			left: 0%;
+			top: 8.75%;
+			border: 2px solid #000000;
+			box-sizing: border-box;
+		}
+		div#Tabela2{
+			position: absolute;
+			width: 100%;
+			height: 6.5%;
+			right: 0%;
+			left: 0%;
+			top: 15.25%;
+			border: 2px solid #000000;
+			box-sizing: border-box;
+		}
+		div#Tabela3{
+			position: absolute;
+			width: 100%;
+			height: 6.5%;
+			right: 0%;
+			left: 0%;
+			top: 21.75%;
+			border: 2px solid #000000;
+			box-sizing: border-box;
+		}
+		div#Tabela4{
+			position: absolute;
+			width: 100%;
+			height: 6.5%;
+			right: 0%;
+			left: 0%;
+			top: 28.25%;
+			border: 2px solid #000000;
+			box-sizing: border-box;
+		}
+		div#Tabela5{
+			position: absolute;
+			width: 100%;
+			height: 6.5%;
+			right: 0%;
+			left: 0%;
+			top: 34.75%;
+			border: 2px solid #000000;
+			box-sizing: border-box;
+		}
+		div#Tabela6{
+			position: absolute;
+			width: 100%;
+			height: 6.5%;
+			right: 0%;
+			left: 0%;
+			top: 41.25%;
+			border: 2px solid #000000;
+			box-sizing: border-box;
+		}
+		div#Tabela7{
+			position: absolute;
+			width: 100%;
+			height: 6.5%;
+			right: 0%;
+			left: 0%;
+			top: 47.75%;
+			border: 2px solid #000000;
+			box-sizing: border-box;
+		}
+		div#Tabela8{
+			position: absolute;
+			width: 100%;
+			height: 6.5%;
+			right: 0%;
+			left: 0%;
+			top: 54.25%;
+			border: 2px solid #000000;
+			box-sizing: border-box;
+		}
+		div#Tabela9{
+			position: absolute;
+			width: 100%;
+			height: 6.5%;
+			right: 0%;
+			left: 0%;
+			top: 60.75%;
+			border: 2px solid #000000;
+			box-sizing: border-box;
+		}
+		div#Tabela10{
+			position: absolute;
+			width: 100%;
+			height: 6.5%;
+			right: 0%;
+			left: 0%;
+			top: 67.25%;
+			border: 2px solid #000000;
+			box-sizing: border-box;
+		}
+		div#TC1{
+			position: absolute;
+			width: 75%;
+			height: 24px;
+			left: 7px;
+			top: 9.5%;
+			font-family: Liberation Serif;;
+			font-weight: normal;
+			font-size: 30pt;
+			color: #000000;
+		}
+		div#TCD1{
+			position: absolute;
+			width: 75%;
+			height: 24px;
+			left: 7px;
+			top: 12.5%;
+			font-family: Liberation Serif;;
+			font-weight: normal;
+			font-size: 20pt;
+			color: #000000;
+		}
+		div#V1{
+			position: absolute;
+			width: 15%;
+			height: 10%;
+			left: 81.25%;
+			right: 6.25%;
+			top: 10%;
+			font-family: Liberation Serif;;
+			font-weight: normal;
+			font-size: 40pt;
+			color: white;
+		}
+		div#TC2{
+			position: absolute;
+			width: 75%;
+			height: 24px;
+			left: 7px;
+			top: 16%;
+			font-family: Liberation Serif;;
+			font-weight: normal;
+			font-size: 30pt;
+			color: #000000;
+		}
+		div#TCD2{
+			position: absolute;
+			width: 75%;
+			height: 24px;
+			left: 7px;
+			top: 19%;
+			font-family: Liberation Serif;;
+			font-weight: normal;
+			font-size: 20pt;
+			color: #000000;
+		}
+		div#V2{
+			position: absolute;
+			width: 15%;
+			height: 10%;
+			left: 81.25%;
+			right: 6.25%;
+			top: 16.5%;
+			font-family: Liberation Serif;;
+			font-weight: normal;
+			font-size: 40pt;
+			color: white;
+		}
+		div#TC3{
+			position: absolute;
+			width: 75%;
+			height: 24px;
+			left: 7px;
+			top: 22.5%;
+			font-family: Liberation Serif;;
+			font-weight: normal;
+			font-size: 30pt;
+			color: #000000;
+		}
+		div#TCD3{
+			position: absolute;
+			width: 75%;
+			height: 24px;
+			left: 7px;
+			top: 25.5%;
+			font-family: Liberation Serif;;
+			font-weight: normal;
+			font-size: 20pt;
+			color: #000000;
+		}
+		div#V3{
+			position: absolute;
+			width: 15%;
+			height: 10%;
+			left: 81.25%;
+			right: 6.25%;
+			top: 23%;
+			font-family: Liberation Serif;;
+			font-weight: normal;
+			font-size: 40pt;
+			color: white;
+		}
+		div#TC4{
+			position: absolute;
+			width: 75%;
+			height: 24px;
+			left: 7px;
+			top: 29%;
+			font-family: Liberation Serif;;
+			font-weight: normal;
+			font-size: 30pt;
+			color: #000000;
+		}
+		div#TCD4{
+			position: absolute;
+			width: 75%;
+			height: 24px;
+			left: 7px;
+			top: 32%;
+			font-family: Liberation Serif;;
+			font-weight: normal;
+			font-size: 20pt;
+			color: #000000;
+		}
+		div#V4{
+			position: absolute;
+			width: 15%;
+			height: 10%;
+			left: 81.25%;
+			right: 6.25%;
+			top: 29.5%;
+			font-family: Liberation Serif;;
+			font-weight: normal;
+			font-size: 40pt;
+			color: white;
+		}
+
+	</style>
+
+</head>
+
+<body>
+	<div id="topo">
+		<a href="TOPÇÕES1.html"><img src="icon 1.png"></a>
+		<label>NOME COMIDA</label>
+	</div>
+
+	<div id="Preco">
+		
+	</div>
+
+	<div id="Tabela1"></div>
+		<div id="TC1">
+			<label>Comida</label>
+		</div>
+		<div id="TCD1">
+			<label>Descrição comida</label>
+		</div>
+		<div id="V1">
+			<label>Valor</label>
+		</div>
+	
+	<div id="Tabela2"></div>
+		<div id="TC2">
+			<label>Comida</label>
+		</div>
+		<div id="TCD2">
+			<label>Descrição comida</label>
+		</div>
+		<div id="V2">
+			<label>Valor</label>
+		</div>
+
+	
+	<div id="Tabela3"></div>
+		<div id="TC3">
+			<label>Comida</label>
+		</div>
+		<div id="TCD3">
+			<label>Descrição comida</label>
+		</div>
+		<div id="V3">
+			<label>Valor</label>
+		</div>
+	
+	<div id="Tabela4"></div>
+		<div id="TC4">
+			<label>Comida</label>
+		</div>
+		<div id="TCD4">
+			<label>Descrição comida</label>
+		</div>
+		<div id="V4">
+			<label>Valor</label>
+		</div>
+	
+	<div id="Tabela5"></div>
+		<div id="TC5">
+			<label>Comida</label>
+		</div>
+	
+	<div id="Tabela6"></div>
+		<div id="TC6">
+			<label>Comida</label>
+		</div>
+	
+	<div id="Tabela7"></div>
+		<div id="TC7">
+			<label>Comida</label>
+		</div>
+	
+	<div id="Tabela8"></div>
+		<div id="TC8">
+			<label>Comida</label>
+		</div>
+	
+	<div id="Tabela9"></div>
+		<div id="TC9">
+			<label>Comida</label>
+		</div>
+	
+	<div id="Tabela10"></div>
+		<div id="TC10">
+			<label>Comida</label>
+		</div>
+
+	
+ 	
+
+	
+
+</body>
+</html>

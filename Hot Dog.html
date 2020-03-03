@@ -1,0 +1,571 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>
+			  
+		</title>
+		<link rel="icon" type="Imagem/png" href=""/>
+		
+		<style>
+			body{
+				background-color: white;
+			}
+			div#topo{
+				position: absolute;
+				left: 0%;
+				right: 0%;
+				top: 0%;
+				bottom: 91.25%;
+				background-color: #000AFF;
+			}
+			div#topo label{
+				position: absolute;
+				width: 750px;
+				height: 24px;
+				left: 13%;
+				top: 32.5%;
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 30pt;
+				line-height: 50px;
+				letter-spacing: 0.15px;
+				color: #FFFFFF;
+			}
+			div#topo img{
+				position: absolute;
+				left: 2.5%;
+				right: 89.72%;
+				top: 30%;
+				bottom: 25%;
+			}
+			div#Preco{
+				position: absolute;
+				width: 25%;
+				height: 91.5%;
+				right: 0%;
+				top: 8.75%;
+				background: #3A3A3A;
+			}
+			div#Tabela1{
+				position: absolute;
+				width: 100%;
+				height: 7.5%;
+				right: 0%;
+				left: 0%;
+				top: 8.75%;
+				border: 2px solid #000000;
+				box-sizing: border-box;
+			}
+			div#Tabela2{
+				position: absolute;
+				width: 100%;
+				height: 7.5%;
+				right: 0%;
+				left: 0%;
+				top: 16.25%;
+				border: 2px solid #000000;
+				box-sizing: border-box;
+			}
+			div#Tabela3{
+				position: absolute;
+				width: 100%;
+				height: 7.5%;
+				right: 0%;
+				left: 0%;
+				top: 23.75%;
+				border: 2px solid #000000;
+				box-sizing: border-box;
+			}
+			div#Tabela4{
+				position: absolute;
+				width: 100%;
+				height: 7.5%;
+				right: 0%;
+				left: 0%;
+				top: 31.25%;
+				border: 2px solid #000000;
+				box-sizing: border-box;
+			}
+			div#Tabela5{
+				position: absolute;
+				width: 100%;
+				height: 7.5%;
+				right: 0%;
+				left: 0%;
+				top: 38.75%;
+				border: 2px solid #000000;
+				box-sizing: border-box;
+			}
+			div#Tabela6{
+				position: absolute;
+				width: 100%;
+				height: 7.5%;
+				right: 0%;
+				left: 0%;
+				top: 46.25%;
+				border: 2px solid #000000;
+				box-sizing: border-box;
+			}
+			div#Tabela7{
+				position: absolute;
+				width: 100%;
+				height: 7.5%;
+				right: 0%;
+				left: 0%;
+				top: 53.75%;
+				border: 2px solid #000000;
+				box-sizing: border-box;
+			}
+			div#Tabela8{
+				position: absolute;
+				width: 100%;
+				height: 7.5%;
+				right: 0%;
+				left: 0%;
+				top: 61.25%;
+				border: 2px solid #000000;
+				box-sizing: border-box;
+			}
+			div#Tabela9{
+				position: absolute;
+				width: 100%;
+				height: 7.5%;
+				right: 0%;
+				left: 0%;
+				top: 68.75%;
+				border: 2px solid #000000;
+				box-sizing: border-box;
+			}
+			div#Tabela10{
+				position: absolute;
+				width: 100%;
+				height: 7.5%;
+				right: 0%;
+				left: 0%;
+				top: 76.25%;
+				border: 2px solid #000000;
+				box-sizing: border-box;
+			}
+			div#TC1{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 9.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: #000000;
+			}
+			div#TCD1{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 12.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 20pt;
+				color: #706f6f;
+			}
+			div#V1{
+				position: absolute;
+				width: 20%;
+				height: 10%;
+				left: 80.25%;
+				right: 6.25%;
+				top: 11.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: white;
+			}
+			div#TC2{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 17%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: #000000;
+			}
+			div#TCD2{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 20%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 20pt;
+				color: #706f6f;
+			}
+			div#V2{
+				position: absolute;
+				width: 20%;
+				height: 10%;
+				left: 80.25%;
+				right: 6.25%;
+				top: 19%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: white;
+			}
+			div#TC3{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 24.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: #000000;
+			}
+			div#TCD3{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 27.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 20pt;
+				color: #706f6f;
+			}
+			div#V3{
+				position: absolute;
+				width: 20%;
+				height: 10%;
+				left: 80.25%;
+				right: 6.25%;
+				top: 26.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: white;
+			}
+			div#TC4{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 32%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: #000000;
+			}
+			div#TCD4{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 35%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 20pt;
+				color: #706f6f;
+			}
+			div#V4{
+				position: absolute;
+				width: 20%;
+				height: 10%;
+				left: 80.25%;
+				right: 6.25%;
+				top: 34%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: white;
+			}
+			div#TC5{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 39.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: #000000;
+			}
+			div#TCD5{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 42.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 20pt;
+				color: #706f6f;
+			}
+			div#V5{
+				position: absolute;
+				width: 20%;
+				height: 10%;
+				left: 80.25%;
+				right: 6.25%;
+				top: 41.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: white;
+			}
+			div#TC6{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 47%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: #000000;
+			}
+			div#TCD6{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 50%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 20pt;
+				color: #706f6f;
+			}
+			div#V6{
+				position: absolute;
+				width: 20%;
+				height: 10%;
+				left: 80.25%;
+				right: 6.25%;
+				top: 49%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: white;
+			}
+			div#TC7{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 54.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: #000000;
+			}
+			div#TCD7{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 57.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 20pt;
+				color: #706f6f;
+			}
+			div#V7{
+				position: absolute;
+				width: 20%;
+				height: 10%;
+				left: 80.25%;
+				right: 6.25%;
+				top: 56.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: white;
+			}
+			div#TC8{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 62%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: #000000;
+			}
+			div#TCD8{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 65%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 20pt;
+				color: #706f6f;
+			}
+			div#V8{
+				position: absolute;
+				width: 20%;
+				height: 10%;
+				left: 80.25%;
+				right: 6.25%;
+				top: 64%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: white;
+			}
+			div#TC9{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 69.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: #000000;
+			}
+			div#TCD9{
+				position: absolute;
+				width: 75%;
+				height: 24px;
+				left: 7px;
+				top: 72.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 20pt;
+				color: #706f6f;
+			}
+			div#V9{
+				position: absolute;
+				width: 20%;
+				height: 10%;
+				left: 80.25%;
+				right: 6.25%;
+				top: 71.5%;
+				font-family: Liberation Serif;;
+				font-weight: normal;
+				font-size: 30pt;
+				color: white;
+			}
+		</style>
+	
+	</head>
+	
+	<body>
+		<div id="topo">
+			<a href="Rogerio Lanches.html"><img src="img/icon 1.png"></a>
+			<label>Hot Dog</label>
+		</div>
+	
+		<div id="Preco">
+			
+		</div>
+	
+		<div id="Tabela1"></div>
+			<div id="TC1">
+				<label>Hot dog simples</label>
+			</div>
+			<div id="TCD1">
+				<label>pão, salsicha, milho, alface, batata e molho</label>
+			</div>
+			<div id="V1">
+				<label>R$ 9,00</label>
+			</div>
+
+		<div id="Tabela2"></div>
+			<div id="TC2">
+				<label>Hot dog simples com queijo</label>
+			</div>
+			<div id="TCD2">
+				<label>pão, salsicha, milho, alface, batata, molho e queijo</label>
+			</div>
+			<div id="V2">
+				<label>R$ 10,00</label>
+			</div>
+	
+		
+		<div id="Tabela3"></div>
+			<div id="TC3">
+				<label>Hot dog frango</label>
+			</div>
+			<div id="TCD3">
+				<label>pão, salsicha, frango, milho, alface, batata e molho</label>
+			</div>
+			<div id="V3">
+				<label>R$ 11,00</label>
+			</div>
+		
+		<div id="Tabela4"></div>
+			<div id="TC4">
+				<label>Hot dog de bacon</label>
+			</div>
+			<div id="TCD4">
+				<label>pão, salsicha, bacon, milho, alface, batata e molho</label>
+			</div>
+			<div id="V4">
+				<label>R$ 11,00</label>
+			</div>
+
+		<div id="Tabela5"></div>
+			<div id="TC5">
+				<label>Hot dog de calabresa</label>
+			</div>
+			<div id="TCD5">
+				<label>pão, salsicha, calabresa, milho, alface, batata e molho</label>
+			</div>
+			<div id="V5">
+				<label>R$ 11,00</label>
+			</div>
+
+		<div id="Tabela6"></div>
+			<div id="TC6">
+				<label>Hot dog completo</label>
+			</div>
+			<div id="TCD6">
+				<label>pão, salsicha, frango, bacon, milho, alface, batata e molho</label>
+			</div>
+			<div id="V6">
+				<label>R$ 14,00</label>
+			</div>
+
+		<div id="Tabela7"></div>
+			<div id="TC7">
+				<label>Hot dog 4 queijos</label>
+			</div>
+			<div id="TCD7">
+				<label>pão, salsicha, mussarela, catupiry, provolone, parmesão, milho, alface, batata e molho</label>
+			</div>
+			<div id="V7">
+				<label>R$ 15,00</label>
+			</div>
+
+		<div id="Tabela8"></div>
+			<div id="TC8">
+				<label>Hor dog especial</label>
+			</div>
+			<div id="TCD8">
+				<label>pão, salsicha, frango, bacon, calabresa, milho, alface, batata <br> e molho</label>
+			</div>
+			<div id="V8">
+				<label>R$ 16,00</label>
+			</div>
+
+		<div id="Tabela9"></div>
+			<div id="TC9">
+				<label>Hot dog lombo</label>
+			</div>
+			<div id="TCD9">
+				<label>pão, salsicha, lombo, mussarela, requeijão, tomate, azeitona, orégano, milho, alface, batata e molho</label>
+			</div>
+			<div id="V9">
+				<label>R$ 18,00</label>
+			</div>
+		
+	</body>
+</html>
